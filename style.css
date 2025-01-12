@@ -1,0 +1,99 @@
+/* General styling */
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background: #000 ; /* Black background */
+    color: white; /* White text */
+    padding: 0.5rem 0;
+    text-align: center;
+
+}
+
+header h1{
+    background: green;
+    color : white;
+    padding : 0.5rem 0;
+    text-align: center;
+}
+
+
+header h1 {
+    margin: 0;
+    color: white; /* Green text for the title */
+}
+
+iframe {
+    margin-right: 20px; /*space between the two youtube videos */
+}
+
+/* Navigation links */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white; /* White navigation links */
+    text-decoration: none;
+}
+
+/* About Section */
+#about {
+    background: white; /* White background */
+    color: black; /* Black text */
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Hadith Section */
+#hadith {
+    background: black; /* Black background */
+    color: #C0C0C0; /* Green text */
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Hadith Styling */
+.hadith-item {
+    background: #333; /* Dark gray background */
+    color: white; /* White text */
+    padding: 10px;
+    border: 1px solid green; /* Green border */
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: green; /* Green background */
+    color: white; /* White text */
+    margin-top: 20px;
+}
+
+/* Hover Effects */
+nav ul li a:hover {
+    color: green; /* Green color on hover for navigation links */
+}
+
+.hadith-item:hover {
+    background: green; /* Green background on hover */
+    color: black; /* Black text on hover */
+}
